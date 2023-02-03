@@ -10,7 +10,7 @@ const databaseConfig = {
 
 mongoose.set('strictQuery', false);
 mongoose.connect(`mongodb://${serverHOST}:${serverPORT}/${databaseName}`, databaseConfig).then(() => {
-    console.log('Success connecting to database');
+    //console.log('Success connecting to database');
 }).catch(err => {
     console.log('Fail connecting to database ' + err);
 });
