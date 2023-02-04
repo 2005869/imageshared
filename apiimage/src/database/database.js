@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const serverHOST = 'localhost';
 const serverPORT = 27017;
-const databaseName = 'picsway'
+const databaseName = 'pics'
 const databaseConfig = {
     useNewUrlParser: true,
     useUnifiedTopology: true
